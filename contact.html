@@ -10,14 +10,15 @@
     <link href='https://fonts.googleapis.com/css?family=Alegreya SC' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Syne' rel='stylesheet'>
 <style>
-.flexc{
+/* .flexc{
     width: 50%;
     float: left;
     background-image: url(/images/scene.jpg);
-  }
+  } */
   .content2 {
-    border: 3px solid #fff;
-    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
 }
 </style>
   </head>
@@ -65,11 +66,13 @@
     </div>
     <!--sidebar end-->
 <div class="maincont">
-   <div class="content"></div>
-    <div class="content2">
-       <div class="flexc"></div>
-       <div class="flexc"></div>
-    </div>
+  <div class="grid-child purple" style="color: white;">
+    Grid Column 1
+</div>
+
+<div class="grid-child green">
+    Grid Column 2
+</div>
   </div>
 
       

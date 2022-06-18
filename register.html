@@ -75,6 +75,10 @@
   .form_wrap .input_grp  input[type="text"]{
     width: 165px;
   }
+
+  .form_wrap .input_grp  input[type="password"]{
+    width: 165px;
+  }
   
   .form_wrap  input[type="text"]{
     width: 100%;
@@ -84,7 +88,18 @@
     outline: none;
   }
   
+  .form_wrap  input[type="password"]{
+    width: 100%;
+    border-radius: 3px;
+    border: 1.3px solid #9597a6;
+    padding: 10px;
+    outline: none;
+  }
+
   .form_wrap  input[type="text"]:focus{
+    border-color: #063abd;
+  }
+  .form_wrap  input[type="password"]:focus{
     border-color: #063abd;
   }
   
@@ -193,8 +208,8 @@
               </div>
     
               <div class="input_wrap">
-                <label for="city">City</label>
-                <input type="text" id="city">
+                <label for="city">Password</label>
+                <input type="password" id="city">
               </div>
               <div class="input_wrap">
                 <label for="country">Country</label>

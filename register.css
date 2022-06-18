@@ -188,8 +188,8 @@ body{
   margin-left: 250px;
 }
 
-#check:checked ~ .maincont .content2 div{
-transform: translateX(250px);}
+/* #check:checked ~ .maincont .content2 div{
+transform: translateX(250px);} */
 /* .maincont .content2 a{
   position: relative;
   display: inline-block;
@@ -322,7 +322,10 @@ transform: translateX(250px);}
     position: absolute;
     transform: translateX(35rem) translateY(5rem) scale(2);
   }
- 
+  .kasargod:hover {
+    z-index: -1;
+
+  }
 
 
   .kannur{
@@ -341,7 +344,10 @@ transform: translateX(250px);}
     position: absolute;
     transform: translateX(35rem) translateY(5rem);
   }
- 
+  .kannur:hover {
+    z-index: -1;
+
+  }
 
   .wayanad{
     top: 18.5rem;
@@ -357,7 +363,7 @@ transform: translateX(250px);}
   .wayanad:hover img{
     display: flex;
     position: absolute;
-    transform: translateX(20rem) translateY(0rem) scale(1);
+    /* transform: translateX(35rem) translateY(3rem) scale(1); */
   }
   .wayanad:hover {
     z-index: -1;
@@ -378,9 +384,12 @@ transform: translateX(250px);}
   .kozhikode:hover img{
     display: flex;
     position: absolute;
-    transform: translateX(35rem) translateY(2rem) ;
+    transform: translateX(35rem) translateY(2rem) scale(2);
   }
+  .kozhikode:hover {
+    z-index: -1;
 
+  }
 
   .malappuram{
     top: 23rem;
@@ -396,9 +405,12 @@ transform: translateX(250px);}
   .malappuram:hover img{
     display: flex;
     position: absolute;
-    transform: translateX(25rem) translateY(-6rem) ;
+    transform: translateX(35rem) translateY(1rem) scale(2);
   }
+  .malappuram:hover {
+    z-index: -1;
 
+  }
 
   .palakkad{
     top: 27rem;
@@ -414,9 +426,12 @@ transform: translateX(250px);}
   .palakkad:hover img{
     display: flex;
     position: absolute;
-    transform: translateX(15rem) translateY(1rem) ;
+    transform: translateX(35rem) translateY(1rem) scale(2);
   }
+  .palakkad:hover {
+    z-index: -1;
 
+  }
 
   .thrissur{
     top: 27.5rem;
@@ -432,11 +447,15 @@ transform: translateX(250px);}
   .thrissur:hover img{
     display: flex;
     position: absolute;
-    transform: translateX(25rem) translateY(1rem);
+    transform: translateX(35rem) translateY(1rem) scale(2);
+  }
+  .thrissur:hover {
+    z-index: -1;
+
   }
 
-
   .idukki{
+    z-index: -1;
     top: 35.5rem;
     left: 36.5rem;
     min-width: 5.5em;
@@ -492,9 +511,12 @@ transform: translateX(250px);}
   .kottayam:hover img{
     display: flex;
     position: absolute;
-    transform: translateX(35rem) translateY(-4rem) scale(2);
+    transform: translateX(35rem) translateY(1rem) scale(2);
   }
+  .kottayam:hover {
+    z-index: -1;
 
+  }
 
   .pathanamthita{
     top: 43.5rem;
@@ -502,7 +524,7 @@ transform: translateX(250px);}
     min-width: 5.5em;
     position: absolute;
     min-height: 5em;
-    background-color: tomato ;
+    /* background-color: tomato ; */
   }
   .pathanamthita img{
     display: none;
@@ -510,9 +532,12 @@ transform: translateX(250px);}
   .pathanamthita:hover img{
     display: flex;
     position: absolute;
-    transform: translateX(18rem) translateY(-11rem) ;
+    transform: translateX(35rem) translateY(1rem) scale(2);
   }
+  .pathanamthita:hover {
+    z-index: -1;
 
+  }
 
   .alappuzha{
     top: 43.5rem;
@@ -528,7 +553,7 @@ transform: translateX(250px);}
   .alappuzha:hover img{
     display: flex;
     position: absolute;
-    transform: translateX(20rem) translateY(-16rem);
+    transform: translateX(35rem) translateY(1rem) scale(2);
   }
   .alappuzha:hover {
     z-index: -1;
@@ -549,9 +574,12 @@ transform: translateX(250px);}
   .kollam:hover img{
     display: flex;
     position: absolute;
-    transform: translateX(13rem) translateY(-19rem) ;
+    transform: translateX(35rem) translateY(1rem) scale(2);
   }
+  .kollam:hover {
+    z-index: -1;
 
+  }
 
   .trivandrum{
     top: 53.5rem;
@@ -567,7 +595,7 @@ transform: translateX(250px);}
   .trivandrum:hover img{
     display: flex;
     position: absolute;
-    transform: translateX(35rem) translateY(-15rem) scale(2);
+    transform: translateX(35rem) translateY(1rem) scale(2);
   }
   .trivandrum:hover {
     z-index: -1;

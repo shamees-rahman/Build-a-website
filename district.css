@@ -18,12 +18,14 @@ body{
     height: 30px;
   }
   
-.left_area img{
-  position: absolute;
-  top: 0.3rem;
-  left: 6rem;
-  width: 4%;
-}
+  .left_area h3{
+    position: absolute;
+    top: -1rem;
+    left: 6rem;
+    color: #66c366;
+    font-family: 'Syne';
+    font-size: 2.1rem;
+  }
 
   
   .logout_btn{

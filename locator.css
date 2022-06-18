@@ -185,6 +185,9 @@ body{
 #check:checked ~ .maincont .content2{
   margin-left: 250px;
 }
+
+#check:checked ~ .maincont .content2 div{
+transform: translateX(250px);}
 /* .maincont .content2 a{
   position: relative;
   display: inline-block;
@@ -304,9 +307,9 @@ body{
 .kasargod{
     top: 10rem;
     left: 16rem;
-    min-width: 3em;
+    min-width: 6em;
     position: absolute;
-    min-height: 3em;
+    min-height: 5em;
     background-color: red;
   }
   .kasargod img{
@@ -316,4 +319,283 @@ body{
     display: flex;
     position: absolute;
     transform: translateX(35rem) translateY(5rem) scale(2);
+  }
+  .kasargod:hover {
+    z-index: -1;
+
+  }
+
+
+  .kannur{
+    top: 15rem;
+    left: 22rem;
+    min-width: 3em;
+    position: absolute;
+    min-height: 5em;
+    /* background-color: green; */
+  }
+  .kannur img{
+    display: none;
+  }
+  .kannur:hover img{
+    display: flex;
+    position: absolute;
+    transform: translateX(35rem) translateY(5rem);
+  }
+  .kannur:hover {
+    z-index: -1;
+
+  }
+
+  .wayanad{
+    top: 18.5rem;
+    left: 27rem;
+    min-width: 4em;
+    position: absolute;
+    min-height: 3em;
+    /* background-color: yellow; */
+  }
+  .wayanad img{
+    display: none;
+  }
+  .wayanad:hover img{
+    display: flex;
+    position: absolute;
+    /* transform: translateX(35rem) translateY(3rem) scale(1); */
+  }
+  .wayanad:hover {
+    z-index: -1;
+
+  }
+
+  .kozhikode{
+    top: 20rem;
+    left: 23rem;
+    min-width: 4em;
+    position: absolute;
+    min-height: 3em;
+    /* background-color: blue; */
+  }
+  .kozhikode img{
+    display: none;
+  }
+  .kozhikode:hover img{
+    display: flex;
+    position: absolute;
+    transform: translateX(35rem) translateY(2rem) scale(2);
+  }
+  .kozhikode:hover {
+    z-index: -1;
+
+  }
+
+  .malappuram{
+    top: 23rem;
+    left: 24.5rem;
+    min-width: 8em;
+    position: absolute;
+    min-height: 3em;
+    /* background-color: purple; */
+  }
+  .malappuram img{
+    display: none;
+  }
+  .malappuram:hover img{
+    display: flex;
+    position: absolute;
+    transform: translateX(35rem) translateY(1rem) scale(2);
+  }
+  .malappuram:hover {
+    z-index: -1;
+
+  }
+
+  .palakkad{
+    top: 27rem;
+    left: 32rem;
+    min-width: 4em;
+    position: absolute;
+    min-height: 8em;
+    /* background-color: brown ; */
+  }
+  .palakkad img{
+    display: none;
+  }
+  .palakkad:hover img{
+    display: flex;
+    position: absolute;
+    transform: translateX(35rem) translateY(1rem) scale(2);
+  }
+  .palakkad:hover {
+    z-index: -1;
+
+  }
+
+  .thrissur{
+    top: 27.5rem;
+    left: 28rem;
+    min-width: 4em;
+    position: absolute;
+    min-height: 7em;
+    /* background-color: pink ; */
+  }
+  .thrissur img{
+    display: none;
+  }
+  .thrissur:hover img{
+    display: flex;
+    position: absolute;
+    transform: translateX(35rem) translateY(1rem) scale(2);
+  }
+  .thrissur:hover {
+    z-index: -1;
+
+  }
+
+  .idukki{
+    z-index: -1;
+    top: 35.5rem;
+    left: 36.5rem;
+    min-width: 5.5em;
+    position: absolute;
+    min-height: 7em;
+    background-color: magenta ;
+  }
+  .idukki img{
+    display: none;
+  }
+  .idukki:hover img{
+    display: flex;
+    position: absolute;
+    transform: translateX(35rem) translateY(1rem) scale(2);
+  }
+  .idukki:hover {
+    z-index: -1;
+
+  }
+
+  .ernakulam{
+    top: 35.5rem;
+    left: 32rem;
+    min-width: 4.5em;
+    position: absolute;
+    min-height: 3.5em;
+    /* background-color: mediumaquamarine ; */
+  }
+  .ernakulam img{
+    display: none;
+  }
+  .ernakulam:hover img{
+    display: flex;
+    position: absolute;
+    transform: translateX(35rem) translateY(1rem) scale(2);
+  }
+  .ernakulam:hover {
+    z-index: -1;
+
+  }
+
+  .kottayam{
+    top: 39.5rem;
+    left: 32rem;
+    min-width: 4.5em;
+    position: absolute;
+    min-height: 3.5em;
+    /* background-color: lightcoral ; */
+  }
+  .kottayam img{
+    display: none;
+  }
+  .kottayam:hover img{
+    display: flex;
+    position: absolute;
+    transform: translateX(35rem) translateY(1rem) scale(2);
+  }
+  .kottayam:hover {
+    z-index: -1;
+
+  }
+
+  .pathanamthita{
+    top: 43.5rem;
+    left: 36.5rem;
+    min-width: 5.5em;
+    position: absolute;
+    min-height: 5em;
+    /* background-color: tomato ; */
+  }
+  .pathanamthita img{
+    display: none;
+  }
+  .pathanamthita:hover img{
+    display: flex;
+    position: absolute;
+    transform: translateX(35rem) translateY(1rem) scale(2);
+  }
+  .pathanamthita:hover {
+    z-index: -1;
+
+  }
+
+  .alappuzha{
+    top: 43.5rem;
+    left: 32.5rem;
+    min-width: 3em;
+    position: absolute;
+    min-height: 6em;
+    /* background-color: palevioletred ; */
+  }
+  .alappuzha img{
+    display: none;
+  }
+  .alappuzha:hover img{
+    display: flex;
+    position: absolute;
+    transform: translateX(35rem) translateY(1rem) scale(2);
+  }
+  .alappuzha:hover {
+    z-index: -1;
+
+  }
+
+  .kollam{
+    top: 49.5rem;
+    left: 34rem;
+    min-width: 6.5em;
+    position: absolute;
+    min-height: 3em;
+    /* background-color: gray ; */
+  }
+  .kollam img{
+    display: none;
+  }
+  .kollam:hover img{
+    display: flex;
+    position: absolute;
+    transform: translateX(35rem) translateY(1rem) scale(2);
+  }
+  .kollam:hover {
+    z-index: -1;
+
+  }
+
+  .trivandrum{
+    top: 53.5rem;
+    left: 35.5rem;
+    min-width: 6em;
+    position: absolute;
+    min-height: 3em;
+    /* background-color: ivory ; */
+  }
+  .trivandrum img{
+    display: none;
+  }
+  .trivandrum:hover img{
+    display: flex;
+    position: absolute;
+    transform: translateX(35rem) translateY(1rem) scale(2);
+  }
+  .trivandrum:hover {
+    z-index: -1;
+
   }

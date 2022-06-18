@@ -1,96 +1,89 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <title>ICT</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body background="images/posters-indian-pattern.jpg">
-    <header>
-        <img src="images/logo.png" width="20%" >
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sidebar Dashboard Template</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/4fea67d148.js" crossorigin="anonymous"></script>
+    <link href='https://fonts.googleapis.com/css?family=Akaya Kanadaka' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Alegreya SC' rel='stylesheet'>
+  </head>
+  <body>
 
-        <div class="headtag">
-            <a href="#">Home</a>
-            <a href="#">Profile</a>
-            <a href="#">Courses</a>
-            <a href="#">About Us</a>
-            <a href="#">Contact Us</a>
+    <input type="checkbox" id="check">
+    <!--header area start-->
+    <div class="heading"><header>
+      <label for="check">
+        <i class="fas fa-bars" id="sidebar_btn"></i>
+      </label>
+      <div class="left_area">
+        <a href="#"><img src="/images/logo.png" alt=""></a>
+      </div>
+      <div class="right_area">
+        <button class='logout_btn' onclick="document.getElementById('login-form').style.display='block'" style="width:auto;">Login</button>
+      </div>
+      <!-- login -->
+      <div id='login-form'class='login-page'>
+        <div class="form-box">
+            <div class='button-box'>
+               <a href="index.html">Back to page</a>
+            </div>
+            <form id='login' class='input-group-login'>
+                <input type='text'class='input-field'placeholder='Email Id' >
+    <input type='password'class='input-field'placeholder='Enter Password'>
+    <input type='checkbox'class='check-box'><span>Remember Password</span>
+    <button type='submit'class='submit-btn'>Log in</button>
+ </form>
         </div>
+    </div></div>
+    <!-- login end -->
     </header>
-        <!-- Form -->
-        <form action="#" class="login">
-            <h2>User Login</h2>
-            <br>
-            <div class="logincont">
-                <label>Username</label> 
-                <br>
-                <input type="text" placeholder="Username">
-                <br><br>
-                <label>Password</label> 
-                <br>
-                <input type="password" placeholder="Password">
-            </div>
-            <br>
-            <div>
-                <input id="loginbut" type="submit" value="Login">
-            </div>
-            <br>
-            <div id="signup">
-                <h5>Create an account</h5>
-                <a href="#">Sign Up</a>
-            </div>
-        </form>
-
-    <!-- Aside -->    
-    <div class="asidecontent">
-        <h2>ICTAK</h2>
-        <hr>
-        <br>
-        <h3>ICT Academy of Kerala is a Social Enterprise created in a Public Private Partnership model (PPP) for 
-            imparting ICT skills to the youths of Kerala and improving their employability opportunities in the 
-            Industry. The Company is supported by Govt. of India, partnered by Govt. of Kerala and the IT 
-            industry.</h3> 
+    <!--header area end-->
+    <!--sidebar start-->
+    <div class="sidebar">
+      <div class="profile_image">
+        <img src="images/user.png" alt=""></div>
+        <h4>Username<span>eeeee</span></h4>
+      
+      <a href="#"><i class="fa-solid fa-house"></i><span>Home Page</span></a>
+      <a href="#"><i class="fa-solid fa-location-dot"></i><span>Locator</span></a>
+      <a href="#"><i class="fa-solid fa-address-card"></i><span>Register</span></a>
+      <a href="#"><i class="fa-solid fa-phone"></i><span>Forms</span></a>
     </div>
-    <!-- P Boxes -->
-    <div class="container">
-        <div class="pbox">
-            <h3>PGP in Data Science & Machine Learning</h3><br>
-            <p>Data Scientists are a breed of data experts who have the technical skills to solve
-                 complex problems. On the other hand, analytics interpret data and turn it into 
-                 information that can offer ways to improve a business. There's no surprise that many 
-                 people are clamoring to find how to learn data science and analytics. ICT Academy of
-                  Kerala offers a specialized certificate course in Data Science and Analytics.</p>
-            <a href="#">Read more</a>
-        </div>
-        <div class="pbox">
-            <h3>Certified Specialist in ML-AI</h3><br>
-            <p>Machine Learning (ML) and Artificial Intelligence (AI) are transforming our world, and 
-                the adaptation rate of ML/AI technologies is high. The products of the new AI revolution
-                , like self-driven vehicles, robot assistance, and digital disease diagnostics, will 
-                affect how we live and function. ML/AI has the power to produce some of this century's
-                 magnificent and revolutionary inventions as well. </p>
-            <a href="#">Read more</a>
-        </div>
-        <div class="pbox">
-            <h3>Certified Specialist in Robotic Process Automation</h3><br>
-            <p>One of the primary advantages of robotic process automation is the immediate and
-                 significant reduction in expenditure it delivers. Robotic Process Automation offers
-                 the ability to gather, organize, track, analyze, report on, and store valuable data.
-                 Automating tasks and workflows through RPA does not require coding or script writing.
-                 </p>
-            <a href="#">Read more</a>
-        </div>
-        <div class="pbox">
-            <h3>Certified Cyber Security Analyst​</h3><br>  
-            <p>Cyber Security is a specialized field in Information Technology (IT) regarded as a 
-                sub-stream in Computer Science. Cyber Security as a profession has evolved over the 
-                years, one of the reasons being the increasing rate of cybercrimes. Any industry that 
-                transacts online or carries sensitive data requires a Cyber Security professional to 
-                safeguard its data from such delinquents. </p>
-            <a href="#">Read more</a>
-        </div>
+    <!--sidebar end-->
+<div class="maincont">
+    <div class="content"> <div id="video-container">
+      <video autoplay loop muted class="fillWidth">
+          <!-- <source src="http://yourwebsite.com/your-video-file.mp4" type="video/mp4"/>
+          <source src="http://yourwebsite.com/your-video-file.ogg" type="video/ogg"/> -->
+          <source src="images/keralavideo.webm" type="video/webm"/>
+          Your browser does not support the video tag. I suggest you upgrade your browser.
+      </video>
+  </div></div>
+    <div class="content2">
+      <p>
+        <span id="dg">O</span>
+      <span id="lg">nnam </span>
+      <span id="dg">M</span>
+      <span id="lg">ala </span>
+      <span id="dg">K</span>
+      <span id="lg">eri </span>
+      <span id="dg">P</span>
+      <span id="lg">ovande </span><span id="wh">Adventures</span><br> is part of the emerging new face of Kerala's tourism.
+        Curated for the young with a deep appreciation for the traditions, our journeys bring to you the most exquisite treasures
+        that the land of Mahabali and Parashurama have to offer. Join us in a whirlwind of music, dance, food & art and learn to
+        enjoy the little pleasures in life. As we say in our circles, <br>"Miles to go before we sleep, Malas to cross before we sleep".
+        
+    </p>
+    <a href="#">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+Take a tour!  </a>
     </div>
-<footer>
-        Copyright@2019
-</footer>
-</body>
+  </div>
+  </body>
 </html>
+      
